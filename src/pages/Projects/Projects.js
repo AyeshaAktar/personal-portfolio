@@ -9,9 +9,9 @@ const Projects = () => {
       <h2 className="mt-5" id="projects">
         My Projects
       </h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
         <div class="col">
-          <div class="card">
+          <div class="card shadow">
             <div className="">
               <img src={carGallery} class="card-img-top image" alt="..." />
             </div>
@@ -30,7 +30,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card shadow">
             <div className="">
               <img src={camping} class="card-img-top image" alt="..." />
             </div>
@@ -49,7 +49,7 @@ const Projects = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card shadow">
             <div className="">
               <img src={eyeCare} class="card-img-top image" alt="..." />
             </div>

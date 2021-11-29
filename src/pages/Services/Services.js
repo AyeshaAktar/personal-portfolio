@@ -10,9 +10,9 @@ const Services = () => {
       <h2 className="mt-5" id="service">
         My Services
       </h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
         <div class="col">
-          <div class="card">
+          <div class="card border-0">
             <div className="">
               <img
                 src={webDesign}
@@ -32,7 +32,7 @@ const Services = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div class="card border-0">
             <div className="">
               <img
                 src={responsive}
@@ -52,7 +52,7 @@ const Services = () => {
           </div>
         </div>
         <div class="col">
-          <div class="card h-100">
+          <div class="card border-0">
             <div className="">
               <img
                 src={webDevelopment}
