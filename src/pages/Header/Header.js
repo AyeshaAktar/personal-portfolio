@@ -39,7 +39,7 @@ const Header = () => {
               <a class="nav-link active" href="#">
                 Education
               </a>
-              <a class="nav-link active" href="#">
+              <a class="nav-link active" href="#contact">
                 Contact
               </a>
             </div>
