@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand mx-5" href="#">
             AYESHA
           </a>
           <button
@@ -24,9 +25,9 @@ const Header = () => {
             id="navbarNavAltMarkup"
           >
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
+              <Link class="nav-link active" aria-current="page" to="/home">
                 Home
-              </a>
+              </Link>
               <a class="nav-link active" href="#about">
                 About
               </a>
@@ -39,6 +40,9 @@ const Header = () => {
               <a class="nav-link active" href="#">
                 Education
               </a>
+              <Link class="nav-link active" to="/blogs">
+                Blogs
+              </Link>
               <a class="nav-link active" href="#contact">
                 Contact
               </a>
